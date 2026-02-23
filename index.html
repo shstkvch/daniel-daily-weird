@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Dose of Weird</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌀 Daily Dose of Weird</h1>
+    <p>A surrealist joke and a puzzle, every morning. Archived here.</p>
+  </header>
+  <main id="entries">
+    <p style="color: var(--muted); font-style: italic;">Loading...</p>
+  </main>
+  <footer>
+    Delivered daily by Charlie 🦝
+  </footer>
+  <script>
+    function formatDate(str) {
+      const [y, m, d] = str.split('-').map(Number);
+      const date = new Date(y, m - 1, d);
+      return date.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+    }
+
+    fetch('data/entries.json')
+      .then(r => r.json())
+      .then(entries => {
+        const main = document.getElementById('entries');
+        main.innerHTML = '';
+        entries.forEach(e => {
+          const el = document.createElement('article');
+          el.className = 'entry';
+          el.innerHTML = `
+            <div class="entry-date">${formatDate(e.date)}</div>
+            <div class="entry-body">
+              <div class="section">
+                <div class="section-label joke">🌀 Joke</div>
+                <p>${e.joke}</p>
+              </div>
+              <div class="section">
+                <div class="section-label puzzle">🧩 Puzzle</div>
+                <p>${e.puzzle}</p>
+              </div>
+            </div>
+          `;
+          main.appendChild(el);
+        });
+      })
+      .catch(() => {
+        document.getElementById('entries').innerHTML =
+          '<p style="color:var(--muted)">Couldn\'t load entries.</p>';
+      });
+  </script>
+</body>
+</html>

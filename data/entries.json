@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2026-02-23",
+    "joke": "A horse walks into a library and orders a coffee. The librarian says, \"This is a library.\" The horse whispers, \"A coffee, please.\" The coffee says nothing. It has been the horse all along.",
+    "puzzle": "I have 12 coins, one of which is counterfeit and either heavier or lighter than the rest. Using a balance scale exactly 3 times, identify the counterfeit coin AND determine whether it is heavier or lighter."
+  },
+  {
+    "date": "2026-02-22",
+    "joke": "A postman delivers a letter to a filing cabinet. The filing cabinet opens it, reads 'you have been accepted,' and immediately becomes a lighthouse. The postman watches the beam sweep across the car park and thinks: I knew it. I always knew it would come to this. He files himself under M for melancholy and waits for the tide.",
+    "puzzle": "A farmer has 17 sheep. All but 9 run away. How many sheep remain? (Easy part done.) Now: those 9 sheep are arranged in a 3×3 grid. The farmer wants to move exactly 2 sheep so that there are 5 sheep in every row, column, and diagonal. Is this possible? If not, prove why. If yes, show the arrangement."
+  },
+  {
+    "date": "2026-02-21",
+    "joke": "Why did the clock eat its own hands? Because Tuesday smelled like a borrowed umbrella, and the mirror had already filed for divorce.",
+    "puzzle": "A farmer has a 3-litre jug, a 5-litre jug, and an infinite supply of water. But here's the twist: every time you pour from one jug to another, a crow steals exactly 1 litre from whichever jug you just filled — unless that jug is already full. How do you end up with exactly 4 litres in the 5-litre jug?"
+  },
+  {
+    "date": "2026-02-20",
+    "joke": "Why did the clock apologize to the staircase? Because it had borrowed Tuesday's shadow and returned it full of wet alphabets.",
+    "puzzle": "A man has 12 coins, one of which is counterfeit and either heavier or lighter than the others. Using a balance scale exactly 3 times, identify the counterfeit coin AND determine whether it is heavier or lighter. How?"
+  }
+]
