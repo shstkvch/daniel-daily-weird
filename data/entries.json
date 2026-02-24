@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-02-24",
+    "joke": "A grandfather clock walks into a library and says 'I'd like to return this Tuesday.' The librarian stamps its forehead and whispers 'You were never overdue — you were just ahead of the milk.'",
+    "puzzle": "A farmer has 3 fields. Each field can grow exactly one crop per season. The crops available are wheat, corn, and rye. The rules: wheat cannot be adjacent to corn (fields share an edge if their numbers differ by 1), rye must always be grown in an odd-numbered field, and no crop can repeat in the same field two seasons in a row. How many distinct valid planting arrangements exist across TWO consecutive seasons?"
+  },
+  {
     "date": "2026-02-23",
     "joke": "A horse walks into a library and orders a coffee. The librarian says, \"This is a library.\" The horse whispers, \"A coffee, please.\" The coffee says nothing. It has been the horse all along.",
     "puzzle": "I have 12 coins, one of which is counterfeit and either heavier or lighter than the rest. Using a balance scale exactly 3 times, identify the counterfeit coin AND determine whether it is heavier or lighter."
